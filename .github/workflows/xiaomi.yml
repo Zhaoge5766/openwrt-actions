@@ -46,7 +46,7 @@ jobs:
       run: |
           cd openwrt
           rm -f .config
-          cp ../x64-1907 .config
+          cp ../xiaomi .config
           
     - name: Make Defconfig
       run: |
